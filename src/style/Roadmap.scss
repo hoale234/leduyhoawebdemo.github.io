@@ -1,0 +1,40 @@
+body{
+    margin: 100px;
+}
+
+.full_roadmap{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.move_bong1{
+    margin-top: 100px;
+}
+.bg_bong1{
+    background: linear-gradient(180deg, #24BADD 0%, 
+    rgba(36, 178, 218, 0.741) 25.7%, 
+    rgba(36, 156, 208, 0.345) 65.5%, 
+    rgba(36, 132, 198, 0) 100%);
+    padding: 15px;
+    border-radius: 50%;
+}
+.bg_bong{
+    background: linear-gradient(0deg, #24BADD 0%, 
+    rgba(36, 178, 218, 0.741) 25.7%, 
+    rgba(36, 156, 208, 0.345) 65.5%, 
+    rgba(36, 132, 198, 0) 100%);
+    padding: 15px;
+    border-radius: 50%;
+}
+.bong{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #E1FDFF 56.2%, #C7FCFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #23B9DD;
+}
